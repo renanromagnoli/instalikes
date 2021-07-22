@@ -1,0 +1,30 @@
+.commentsContainer {
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 99vw;
+
+    box-shadow: 0px 0px 4px darkgray;
+
+    h1 {
+        margin-top: 20px;
+        color: var(--pink-comment);
+        align-self: center;
+        font-family: var(--font-1);
+    }
+
+    .cardsComments {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (max-width: 380px) {
+    .commentsContainer {
+        margin: auto;
+    }
+}

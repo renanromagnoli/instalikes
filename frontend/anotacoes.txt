@@ -1,0 +1,9 @@
+ - pegar o username
+ - inserir na url
+ - acessar a url
+
+ - raspar as postagens
+ - acessar cada postagem
+ 
+ - raspar os usuários que curtiram cada postagem
+ - raspar os comentários, somando os mesmos usuários

@@ -1,0 +1,47 @@
+{
+    "mainProfile": 
+        {
+            "id": "renan.romagnoli",
+            "img": "./renan_perfil.jpg",
+            "likes": 28807,
+            "comments": 5454,
+            "friends": [
+                {
+                    "id": "sabrinaxxavier",
+                    "img": "./sabrina_xavier.jpg",
+                    "name": "Sabrina Xavier",
+                    "likes": 349,
+                    "comments": 34
+                },
+                {
+                    "id": "sabrinaxxavier",
+                    "img": "./sabrina_xavier.jpg",
+                    "name": "Sabrina Xavier",
+                    "likes": 349,
+                    "comments": 34
+                },
+                {
+                    "id": "sabrinaxxavier",
+                    "img": "./sabrina_xavier.jpg",
+                    "name": "Sabrina Xavier",
+                    "likes": 349,
+                    "comments": 34
+                },
+                {
+                    "id": "sabrinaxxavier",
+                    "img": "./sabrina_xavier.jpg",
+                    "name": "Sabrina Xavier",
+                    "likes": 349,
+                    "comments": 34
+                },
+                {
+                    "id": "sabrinaxxavier",
+                    "img": "./sabrina_xavier.jpg",
+                    "name": "Sabrina Xavier",
+                    "likes": 349,
+                    "comments": 34
+                }
+            ]
+        }
+    
+}

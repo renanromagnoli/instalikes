@@ -1,0 +1,92 @@
+.profileFriendCard {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+    width: 15rem;
+    height: 20rem;
+    margin: 20px auto;
+        
+    border-radius: 10px;
+    box-shadow: 0 0 4px darkgray;
+
+    transition: border .2s, box-shadow .4s;
+
+    &:hover {
+        border: var(--pink-comment) solid 2px ;
+        box-shadow: 3px 5px 4px var(--gray-dark);
+    }
+}
+
+.profilePosition {
+    font-family: var(--font-number);
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px darkgray;
+    color: var(--pink-comment);
+}
+
+.profileImage {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: var(--pink-comment) solid 2px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: border-color .5s, box-shadow .4s, width .2s, height .2s;
+
+    &:hover {
+        box-shadow: 4px 4px 5px var(--gray-dark);
+        border-color: var(--blue-do);
+        width: 8.1rem;
+        height: 8.2rem;
+        cursor: url(../../../public/search.png), pointer;
+    }
+
+    &:active {
+        box-shadow: none;
+        filter: brightness(200%) blur(3px);        
+    }
+}
+
+.profileName {
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    color: var(--pink-comment);
+    text-shadow: 2px 2px 2px darkgray;
+    cursor: pointer;
+}
+
+.profileUser {
+    font-family: var(--font-2);
+    font-size: 1rem;
+    color: var(--gray-dark);
+    cursor: pointer;
+}
+
+.counterArea {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    
+    width: 90%;
+    height: 10%;
+    margin: 10px auto;
+
+    flex-direction: row;
+
+    cursor: default;
+
+    .counter {
+        font-family: var(--font-number);
+        color: var(--gray-dark);
+        font-size: 2rem;
+    }
+
+    .iconProfileLike {
+        width: 1.5rem;
+    }
+}
